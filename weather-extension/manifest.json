@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "Crazy theme",
+  "permissions": ["tabs"],
+  "theme": {
+  },
+  "browser_action": {
+      "default_title": "Weather Theme",
+      "default_icon": "weather.png",
+      "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
